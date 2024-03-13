@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: favourable-canid-java-quarkus-gitops-repository
+spec:
+  url: https://github.com/rhtap-rhdh-qe/favourable-canid-java-quarkus-gitops
